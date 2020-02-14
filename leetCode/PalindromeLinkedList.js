@@ -20,6 +20,7 @@ function isListPalindrome(l) {
   firstHalfEnd.next = reverseList(secondHalfStart);
   return true;
 }
+
 function reverseList(head) {
   let prev = null;
   let cur = head;
